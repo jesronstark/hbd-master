@@ -8,10 +8,14 @@
 
 .section1 {
 	/* background-color: #b300ff5d; */
-  background-image: url(../img/art-1839006.jpg);
+  position: relative;
+  background-image: url(../img/love-you.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-position: left;
+  background-attachment: fixed;
+  background-size: 200px 300px;
+  
+
 }
 
 .section2 {
