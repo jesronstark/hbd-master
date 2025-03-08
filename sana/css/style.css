@@ -7,12 +7,7 @@
 @import url(https://fonts.googleapis.com/css?family=Fredoka+One);
 
 .section1 {
-	/* background-color: #b300ff5d; */
-  position: relative;
-  background-image: url(../img/sec-1.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+	  background: linear-gradient(to right, #ff9a9e, #fecfef, #ffdde1, #ee9ca7);
   
 
 }
