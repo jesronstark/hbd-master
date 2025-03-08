@@ -9,11 +9,10 @@
 .section1 {
 	/* background-color: #b300ff5d; */
   position: relative;
-  background-image: url(../img/love-you.jpg);
+  background-image: url(../img/sec-1.jpg);
   background-repeat: no-repeat;
-  background-position: left;
-  background-attachment: fixed;
-  background-size: 200px 300px;
+  background-position: center;
+  background-size: cover;
   
 
 }
