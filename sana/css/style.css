@@ -1,20 +1,28 @@
-*{
+ *{
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
+     
+
 }
 
 @import url(https://fonts.googleapis.com/css?family=Fredoka+One);
 
 .section1 {
-	  background: linear-gradient(to right, #ff9a9e, #fecfef, #ffdde1, #ee9ca7);
-  
-
+  background: linear-gradient(to right, #ff9a9e, #fecfef, #ffdde1, #ee9ca7);
 }
 
 .section2 {
-	background-color: #b300ff5d;
+	/* background-color: #b300ff5d;
+  box-shadow: 0px 0px 10px #b300ff5d; */
+  background-color: white;
+  
 }
+/* .fix-size{
+  width: 70%;
+  height: 100%;
+  padding: 0% 0% 0% 0%; 
+} */
 
 .congratulation-text {
   font-family: 'Fredoka One', cursive;
@@ -69,8 +77,8 @@ img.fix-size {
 }
 
 img {
-	width:100%;
-	height: auto;
+	width:200;
+	height: 200;
 }
 
 @font-face {
@@ -90,9 +98,19 @@ img {
     background-position: center;
 }
 
-.section5,
-.section3 {
+.section5 {
   background-color: #ffe4fd;
+}
+.section3{
+  background: #ED4264;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFEDBC, #ED4264);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+  
+  
 }
 
 .section6 h2,
@@ -110,6 +128,10 @@ img {
 .section3 h2,
 .section5 h2
 {
+  text-shadow: 0px 0px 10px #860049;
+  font-family: "Estonia", cursive;
+  font-weight: 400;
+  font-style: normal;
   color: #860049;
 }
 
@@ -121,7 +143,10 @@ img {
 .section6 h2,
 .section2 h2 {
   padding-top:40px;
-	font-family: 'Fredoka One', cursive;
+  letter-spacing: 4px;
+  font-family: "Estonia", cursive;
+  font-weight: 900;
+  font-style: normal;
 	font-size: 64px;
 	text-align: center;
 }
@@ -152,9 +177,8 @@ img {
 
 .polaroids ul li .pin {
   margin-left:-16px;
-  background-image:url(http://martijndevalk.nl/img/pin.png);
   width:200px;
-  height:500px;
+  height:200px;
   position:absolute;
   top:-25px;
   left:50%;
